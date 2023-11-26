@@ -146,13 +146,16 @@
             }
 
             .page-header__bg img {}
+
+            .thm-breadcrumb h5 {
+                color: brown;
+            }
         </style>
         <section class="page-header">
             <div class="page-header__bg" style="background-image:
                 linear-gradient(45deg, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%),
                 url(assets/images/1_cuyocuyo.jpg);">
             </div>
-
             <!-- /.page-header__bg -->
             <div class="container">
                 <ul class="thm-breadcrumb list-unstyled">
@@ -161,7 +164,11 @@
                     <li><span>Página de consulta</span></li>
                 </ul><!-- /.thm-breadcrumb list-unstyled -->
                 <h2>Andenes de Cuyocuyo</h2>
-                <h2>Puno</h2>
+                <h2>Puno
+                </h2>
+                <!-- <h4>
+                    <a href="assets/images/1_cuyocuyo.jpg">+</a>
+                </h4> -->
             </div><!-- /.container -->
         </section><!-- /.page-header -->
 
@@ -169,18 +176,32 @@
         <section class="about-three">
             <div class="container">
                 <div class="row">
+                    <style>
+                        .feature-two__box:hover {
+                            background-color: white;
+                        }
+
+                        .about-two__progress-content span h3:hover {
+                            /* color: blue; */
+                        }
+                    </style>
 
                     <div class="col-lg-6">
                         <div class="about-three__content">
                             <div class="block-title">
                                 <style>
                                     .block-title {
-                                        margin-bottom: 25px;
+                                        margin-bottom: 5px;
+                                    }
+
+                                    .h5,
+                                    h5 {
+                                        font-size: 1rem;
                                     }
                                 </style>
                                 <!-- <div class="block-title__image"></div> -->
                                 <!-- /.block-title__image -->
-                                <div class="row">
+                                <div class="row m-auto">
                                     <p>Datos generales </p>
                                     <div class="dropdown m-auto">
                                         <button class="btn btn-light dropdown-toggle" type="button"
@@ -189,9 +210,9 @@
                                             Andenes de Cuyocuyo
                                         </button>
                                         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                            <a class="dropdown-item" href="#">Action</a>
-                                            <a class="dropdown-item" href="#">Another action</a>
-                                            <a class="dropdown-item" href="#">Something else here</a>
+                                            <a class="dropdown-item" href="#">Laria</a>
+                                            <a class="dropdown-item" href="#">Cotahuasi</a>
+                                            <a class="dropdown-item" href="#">Parque de la papa</a>
                                         </div>
                                     </div>
                                 </div>
@@ -200,55 +221,97 @@
                                 <span>ZABD0001</span>
 
                             </div><!-- /.block-title -->
-                            <h5><i class="fa fa-check-circle"></i> Datos de reconocimiento</h5>
-                            <hr>
+                            <!-- <h5><i class="fa fa-check-circle"></i> Datos de reconocimiento</h5> -->
                             <style>
-                                .about-three__list h5{
+                                .about-three__list h5 {
                                     color: var(--thm-color);
+                                    font-size: 1rem;
+                                }
+
+                                .about-three__list .list-unstyled {
+                                    font-weight: none;
                                 }
                             </style>
+                            <hr>
                             <ul class="about-three__list list-unstyled">
                                 <li>
-                                    
-                                    <b>Resolución ministerial:</b>
+                                    RESOLUCIÓN MINISTERIAL
                                     <span>
-                                        <h5>RE: 41409 SDFA</h5>
+                                        <h5> N° 0279-2023-MIDAGRI
+                                            <a href="#" class="btn btn-warning"> <i class="fa fa-file-pdf"
+                                                    aria-hidden="true"> </i> Descargar</a>
+                                        </h5>
                                     </span>
                                 </li>
                                 <li>
-                                <b>Fecha de reconocimiento</b>
+                                    FECHA DE RECONOCIMIENTO
                                     <span>
                                         <h5>12/12/2023</h5>
                                     </span>
                                 </li>
-
                             </ul>
-                            <h5><i class="fa fa-check-circle"></i> Datos de ubicación</h5>
+
+                            <!-- <h5><i class="fa fa-check-circle"></i> Datos de ubicación</h5> -->
                             <hr>
                             <ul class="about-three__list list-unstyled">
                                 <li>
-                                    <b>Departamento:</b>
+                                    DEPARTAMENTO
                                     <span>
                                         <h5>JUNIN</h5>
                                     </span>
                                 </li>
                                 <li>
-                                    <b>Provincia:</b>
+                                    PROVINCIA
                                     <span>
                                         <h5>HUANCAYO</h5>
                                     </span>
                                 </li>
                                 <li>
-                                    <b>Distrito:</b>
+                                    DISTRITO
                                     <span>
                                         <h5>PARIAHUANCA</h5>
                                     </span>
                                 </li>
                             </ul>
 
-                        </div><!-- /.about-three__content -->
-                    </div><!-- /.col-lg-6 -->
+                            <hr>
+                            <style>
+                                @media (min-width: 1200px) {
+                                    .project-details__list {
+                                        /* margin-left: 50px;
+                                        margin-right: 50px;
+                                        padding-top: 50px;
+                                        padding-bottom: 50px;
+                                        margin-top: -60px;
+                                        position: relative;
+                                        z-index: 20;
+                                        padding-left: 80px;
+                                        padding-right: 80px;
+                                        margin-bottom: 70px; */
+                                    }
+                                }
+                            </style>
+                            <ul class="list-unstyled project-details__list">
+                                <li>
+                                    <span>Latitud
+                                    </span>
+                                    121444
+                                </li>
+                                <li>
+                                    <span>Longitud
+                                    </span>
+                                    -1144553
+                                </li>
+                                <li>
+                                    <span>Altitud
+                                    </span>
+                                    -141255
+                                </li>
+                            </ul>
 
+                        </div><!-- /.about-three__content -->
+                    </div>
+                    <!-- 
                     <div class="col-lg-6">
                         <div class="about-two__content">
                             <div class="col-md-12">
@@ -257,42 +320,46 @@
                                     <div class="col-md-6">
                                         <div class="about-two__progress">
                                             <div class="about-two__progress-box">
-                                                <div class="circle-progress" style="display: flex;"  data-options="{ &quot;value&quot;: 0.90,&quot;thickness&quot;: 2,&quot;emptyFill&quot;: &quot;#f6f5f2&quot;,&quot;lineCap&quot;: &quot;square&quot;, &quot;size&quot;: 118, &quot;fill&quot;: { &quot;color&quot;: &quot;#49a760&quot; } }"><canvas width="118" height="118"></canvas>
-                                                    <span>90%</span>
-                                                </div><!-- /.circle-progress -->
-                                            </div><!-- /.about-two__progress-box -->
+                                                <div class="circle-progress" style="display: flex;"
+                                                    data-options="{ &quot;value&quot;: 0.90,&quot;thickness&quot;: 2,&quot;emptyFill&quot;: &quot;#f6f5f2&quot;,&quot;lineCap&quot;: &quot;square&quot;, &quot;size&quot;: 118, &quot;fill&quot;: { &quot;color&quot;: &quot;#49a760&quot; } }">
+                                                    <canvas width="118" height="118"></canvas>
+                                                    <span>1403</span>
+                                                </div>
+                                            </div>
                                             <div class="about-two__progress-content">
                                                 <span>
-                                                    <h3>Área total de la zona</h3>
+                                                    <h3>Área (ha)</h3>
                                                 </span>
-                                            </div><!-- /.about-two__progress-content -->
-                                        </div><!-- /.about-two__progress -->
-
+                                            </div>
+                                        </div>
+                                        
                                         <div class="about-two__progress">
                                             <ul class="list-unstyled about-two__list">
                                                 <li>
                                                     <i class="fa fa-check-circle"></i>
                                                     Comunidades Campesinas
                                                 </li>
-
-                                            </ul><!-- /.list-unstyled about-two__list -->
+                                            </ul>
                                         </div>
                                         <div class="about-two__progress">
                                             <div class="about-two__progress-box">
-                                                <div class="circle-progress" style="display: flex;" data-options="{ &quot;value&quot;: 0.50,&quot;thickness&quot;: 2,&quot;emptyFill&quot;: &quot;#f6f5f2&quot;,&quot;lineCap&quot;: &quot;square&quot;, &quot;size&quot;: 118, &quot;fill&quot;: { &quot;color&quot;: &quot;#49a760&quot; } }"><canvas width="118" height="118"></canvas>
-                                                    <span>50%</span>
-                                                </div><!-- /.circle-progress -->
-                                            </div><!-- /.about-two__progress-box -->
+                                                <div class="circle-progress" style="display: flex;"
+                                                    data-options="{ &quot;value&quot;: 0.50,&quot;thickness&quot;: 2,&quot;emptyFill&quot;: &quot;#f6f5f2&quot;,&quot;lineCap&quot;: &quot;square&quot;, &quot;size&quot;: 118, &quot;fill&quot;: { &quot;color&quot;: &quot;#49a760&quot; } }">
+                                                    <canvas width="118" height="118"></canvas>
+                                                    <span>8</span>
+                                                </div>
+                                            </div>
                                             <div class="about-two__progress-content">
-                                                <h3>Comuneros de la zona</h3>
-                                            </div><!-- /.about-two__progress-content -->
-                                        </div><!-- /.about-two__progress -->
-                                    </div><!-- /.col-md-6 -->
-                                </div><!-- /.feature-two__box -->
-                            </div><!-- /.col-md-12 col-lg-4 -->
+                                                <h3>Comunidades campesinas</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    <!-- <div class="col-lg-6">
+                    </div> -->
+
+                    <div class="col-lg-6">
                         <br>
                         <br>
                         <h5><i class="fa fa-check-circle"></i> Mapa oficial</h5>
@@ -300,25 +367,20 @@
                         <div class="about-three__image">
                             <img src="assets/images/resources/mapa.png" alt="">
                         </div>
-                        <ul class="list-unstyled project-details__list">
+                        <ul class="about-three__list list-unstyled mt-sm-0">
                             <li>
-                                <span>Latitud:
+                                POLÍGONO
+                                <span >
+                                    <h5>
+                                        <a href="#" class="btn btn-success"> <i class="fa fa-file-excel"
+                                                aria-hidden="true"> </i> Descargar</a>
+                                    </h5>
                                 </span>
-                                121444
-                            </li>
-                            <li>
-                                <span>Longitud:
-                                </span>
-                                -1144553
-                            </li>
-                            <li>
-                                <span>Altitud:
-                                </span>
-                                -141255
                             </li>
                         </ul>
-                    </div> -->
-                    
+
+                    </div>
+
 
                 </div><!-- /.row -->
             </div><!-- /.container -->

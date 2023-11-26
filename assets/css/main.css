@@ -5574,7 +5574,7 @@ h6 {
   font-weight: 500;
   font-size: 16px;
   color: #6e7673;
-  padding: 1rem;
+  /* padding: 1rem; */
 }
 
 @media (min-width: 992px) {
@@ -7412,7 +7412,7 @@ h6 {
 
 @media (min-width: 1200px) {
   .about-three__list li + li {
-    /* margin-top: 5px; */
+    margin-top: 5px;
   }
 }
 
