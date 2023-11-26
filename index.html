@@ -66,8 +66,8 @@
             <nav class="main-menu">
                 <div class="container">
                     <div class="logo-box">
-                        <a href="index.html" aria-label="logo image"><img src="assets/images/logo-dark.png" width="153"
-                                alt=""></a>
+                        <a href="index.html" aria-label="logo image">
+                            <img src="assets/images/logo-dark.png" width="153" alt=""></a>
                         <span class="fa fa-bars mobile-nav__toggler"></span>
                     </div><!-- /.logo-box -->
                     <ul class="main-menu__list">
@@ -173,46 +173,101 @@
                     <div class="col-lg-6">
                         <div class="about-three__content">
                             <div class="block-title">
+                                <style>
+                                    .block-title {
+                                        margin-bottom: 25px;
+                                    }
+                                </style>
                                 <!-- <div class="block-title__image"></div> -->
                                 <!-- /.block-title__image -->
-                                <p>Datos generales</p>
-                                <h3>Andenes de Cuyocuyo</h3>
+                                <div class="row">
+                                    <p>Datos generales </p>
+                                    <div class="dropdown m-auto">
+                                        <button class="btn btn-light dropdown-toggle" type="button"
+                                            id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+                                            aria-expanded="false">
+                                            Andenes de Cuyocuyo
+                                        </button>
+                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                            <a class="dropdown-item" href="#">Action</a>
+                                            <a class="dropdown-item" href="#">Another action</a>
+                                            <a class="dropdown-item" href="#">Something else here</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h3>Andenes de Cuyocuyo
+                                </h3>
+                                <span>ZABD0001</span>
+
                             </div><!-- /.block-title -->
+                            <h5><i class="fa fa-check-circle"></i> Datos de reconocimiento</h5>
+                            <hr>
                             <ul class="about-three__list list-unstyled">
                                 <li>
-                                    <i class="fa fa-check-circle"></i>
-                                    JUNIN
+                                    Resolución ministerial:
+                                    <span>
+                                        <h5>RE: 41409 SDFA</h5>
+                                    </span>
                                 </li>
                                 <li>
-                                    <i class="fa fa-check-circle"></i>
-                                    HUANCAYO
+                                    Fecha de reconocimiento
+                                    <span>
+                                        <h5>12/12/2023</h5>
+                                    </span>
+                                </li>
+
+                            </ul>
+                            <h5><i class="fa fa-check-circle"></i> Datos de ubicación</h5>
+                            <hr>
+                            <ul class="about-three__list list-unstyled">
+                                <li>
+                                    Departamento:
+                                    <span>
+                                        <h5>JUNIN</h5>
+                                    </span>
                                 </li>
                                 <li>
-                                    <i class="fa fa-check-circle"></i>
-                                    PARIAHUANCA
+                                    Provincia:
+                                    <span>
+                                        <h5>HUANCAYO</h5>
+                                    </span>
                                 </li>
                                 <li>
-                                    <i class="fa fa-check-circle"></i>
-                                    2021-12-07
+                                    Distrito:
+                                    <span>
+                                        <h5>PARIAHUANCA</h5>
+                                    </span>
                                 </li>
-                            </ul><!-- /.about-three__list list-unstyled -->
-                            <div class="about-three__summery">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed deiusmod tempor
-                                    incididunt ut
-                                    labore et dolore magna aliqua. Donec scelerisque dolor id nunc dictum, interdum.
-                                </p>
-                            </div><!-- /.about-three__summery -->
-                            <div class="about-three__signs">
-                                <img src="assets/images/resources/about-3-1.png" alt="">
-                                <img src="assets/images/resources/sign-1-1.png" alt="">
-                            </div><!-- /.about-three__signs -->
+                            </ul>
+
                         </div><!-- /.about-three__content -->
                     </div><!-- /.col-lg-6 -->
 
                     <div class="col-lg-6">
+                        <br>
+                        <br>
+                        <h5><i class="fa fa-check-circle"></i> Mapa oficial</h5>
+                        <hr>
                         <div class="about-three__image">
                             <img src="assets/images/resources/mapa.png" alt="">
-                        </div><!-- /.about-three__image -->
+                        </div>
+                        <ul class="list-unstyled project-details__list">
+                            <li>
+                                <span>Latitud:
+                                </span>
+                                121444
+                            </li>
+                            <li>
+                                <span>Longitud:
+                                </span>
+                                -1144553
+                            </li>
+                            <li>
+                                <span>Altitud:
+                                </span>
+                                -141255
+                            </li>
+                        </ul>
                     </div><!-- /.col-lg-6 -->
 
                 </div><!-- /.row -->

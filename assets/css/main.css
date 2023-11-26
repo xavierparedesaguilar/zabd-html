@@ -5557,7 +5557,7 @@ h6 {
 
 @media (min-width: 1200px) {
   .project-details__list {
-    margin-left: 50px;
+    /* margin-left: 50px;
     margin-right: 50px;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -5566,7 +5566,7 @@ h6 {
     z-index: 20;
     padding-left: 80px;
     padding-right: 80px;
-    margin-bottom: 70px;
+    margin-bottom: 70px; */
   }
 }
 
@@ -5574,6 +5574,7 @@ h6 {
   font-weight: 500;
   font-size: 16px;
   color: #6e7673;
+  padding: 1rem;
 }
 
 @media (min-width: 992px) {
@@ -7369,7 +7370,7 @@ h6 {
 
 @media (min-width: 1200px) {
   .about-three__list {
-    margin-top: -20px;
+    margin-top: -10px;
   }
 }
 
@@ -7411,7 +7412,7 @@ h6 {
 
 @media (min-width: 1200px) {
   .about-three__list li + li {
-    margin-top: 5px;
+    /* margin-top: 5px; */
   }
 }
 
