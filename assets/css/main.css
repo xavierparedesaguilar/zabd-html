@@ -7328,15 +7328,15 @@ h6 {
 }
 
 .about-three {
-  padding-top: 96px;
-  padding-bottom: 80px;
+  padding-top: 63px;
+  padding-bottom: 63px;
   position: relative;
 }
 
 @media (min-width: 992px) {
   .about-three {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 60px;
+    padding-bottom: 60px;
   }
 }
 
@@ -7412,7 +7412,7 @@ h6 {
 
 @media (min-width: 1200px) {
   .about-three__list li + li {
-    margin-top: 5px;
+    /* margin-top: 5px; */
   }
 }
 

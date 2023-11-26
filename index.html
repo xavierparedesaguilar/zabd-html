@@ -172,6 +172,20 @@
             </div><!-- /.container -->
         </section><!-- /.page-header -->
 
+        <style>
+            .about-three {
+                padding-top: 63px;
+                padding-bottom: 40px;
+                position: relative;
+            }
+
+            @media (min-width: 992px) {
+                .about-three {
+                    padding-top: 60px;
+                    padding-bottom: 40px;
+                }
+            }
+        </style>
 
         <section class="about-three">
             <div class="container">
@@ -228,10 +242,15 @@
                                     font-size: 1rem;
                                 }
 
-                                .about-three__list .list-unstyled {
-                                    font-weight: none;
+                                .about-three__list .list-unstyled {}
+
+                                @media (min-width: 1200px) {
+                                    .about-three__list li+li {
+                                        /* margin-top: 5px; */
+                                    }
                                 }
                             </style>
+
                             <hr>
                             <ul class="about-three__list list-unstyled">
                                 <li>
@@ -272,9 +291,15 @@
                                         <h5>PARIAHUANCA</h5>
                                     </span>
                                 </li>
+                                <li>
+                                    COMUNIDADES CAMPESINAS
+                                    <span>
+                                        <h5>8 Comunidades</h5>
+                                    </span>
+                                </li>
                             </ul>
 
-                            <hr>
+                            <!-- <hr> -->
                             <style>
                                 @media (min-width: 1200px) {
                                     .project-details__list {
@@ -291,6 +316,7 @@
                                     }
                                 }
                             </style>
+
                             <ul class="list-unstyled project-details__list">
                                 <li>
                                     <span>Latitud
@@ -306,6 +332,11 @@
                                     <span>Altitud
                                     </span>
                                     -141255
+                                </li>
+                                <li>
+                                    <span>Área
+                                    </span>
+                                    14,125 (ha)
                                 </li>
                             </ul>
 
@@ -359,18 +390,29 @@
                         </div>
                     </div> -->
 
+
+                    <style>
+                        .about-three__image {
+                            margin-bottom: 10px;
+                        }
+
+                        @media (min-width: 992px) {
+                            .about-three__image {
+                                margin-bottom: 10;
+                            }
+                        }
+                    </style>
                     <div class="col-lg-6">
-                        <br>
                         <br>
                         <h5><i class="fa fa-check-circle"></i> Mapa oficial</h5>
                         <hr>
                         <div class="about-three__image">
                             <img src="assets/images/resources/mapa.png" alt="">
                         </div>
-                        <ul class="about-three__list list-unstyled mt-sm-0">
+                        <ul class="about-three__list list-unstyled">
                             <li>
                                 POLÍGONO
-                                <span >
+                                <span>
                                     <h5>
                                         <a href="#" class="btn btn-success"> <i class="fa fa-file-excel"
                                                 aria-hidden="true"> </i> Descargar</a>
@@ -378,13 +420,37 @@
                                 </span>
                             </li>
                         </ul>
-
                     </div>
+                </div>
+            </div>
+        </section>
 
-
-                </div><!-- /.row -->
-            </div><!-- /.container -->
-        </section><!-- /.about-three -->
+        <!-- <section class="feature-two">
+            <br>
+            <br>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-lg-4">
+                        <div class="feature-two__box">
+                            <i class="agrikon-icon-tractor-1"></i>
+                            <p>3113</p>
+                            <h3>Área <br>
+                                (ha)</h3>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-lg-4">
+                        <div class="feature-two__box">
+                            <i class="agrikon-icon-agriculture"></i>
+                            <p>8</p>
+                            <h3>Comunidades <br>
+                                Campesinas</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+        </section> -->
 
         <div class="">
             <div class="container">
